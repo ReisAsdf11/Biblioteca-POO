@@ -50,7 +50,9 @@
 
                         break;
                     case 3:
-
+                        if(book.siza() == 0){
+                            System.out.println("\nNao ha livros para emprestar\n");
+                        }
                         System.out.print("Digite qual livro será emprestado: ");
                         int numero = scanner.nextInt();
 
